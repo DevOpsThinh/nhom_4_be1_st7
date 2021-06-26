@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.hero {		
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box {
+	width: 350px;
+	height: 500px;
+	background: #fff;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+	overflow: hidden;
+}
+.form-login {
+	width: 220px;	
+	text-align: center;
+	margin: 30px auto;
+	position: relative;
+	top: 40px;
+	border-radius: 30px;
+}
+h4 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color : #ff105f;
+}
+.form-input {
+	position: absolute;
+	top: 150px;
+	width: 320px;
+	transition: 0.5s all;
+	left: 15px;
+}
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+}
+.submit-btn {
+	width: 30%;
+	padding: 8px 12px;
+	display: block;
+	margin: 10px auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+.check-box {
+	margin: 30px 10px 30px 0px;
+}
+span {
+	color: #777;
+	font-size: 12px;
+	bottom: 63px;
+	position: absolute;
+}
+#register {
+	left:400px;
+}
+

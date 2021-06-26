@@ -1,0 +1,27 @@
+.paginate {
+	text-align: center;
+}
+.paginate p {
+	display: inline-block;
+}
+.paginate p a {
+	background: #fff;	
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: 0.3s all;
+	color: #000;
+	font-size: 22px;
+}
+.paginate p a:hover {
+	box-shadow: 3px 1px 7px 1px rgba(0,0,0,0.73); 	
+}
+.form {
+	width: 350px;
+	margin: 0 auto;
+}
+.form button {
+	width: 350px;
+	height: 360px;
+	font-size: 50px;
+}
